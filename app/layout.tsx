@@ -1,8 +1,23 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
+import Header from "./(uiComponents)/Header";
 
 const inter = Inter({ subsets: ["latin"] });
+const blanch = localFont({
+  src: [
+    {
+      path: "../public/fonts/BLANCH_CAPS.otf",
+      weight: "400",
+    },
+    {
+      path: "../public/fonts/BLANCH_CONDENSED_INLINE.otf",
+      weight: "700",
+    },
+  ],
+  variable: "--font-blanch",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +31,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${blanch.variable}`}>
+
+        {children}
+      </body>
     </html>
   );
 }
