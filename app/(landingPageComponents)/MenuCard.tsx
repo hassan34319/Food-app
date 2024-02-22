@@ -47,7 +47,7 @@ function MenuCard({menuNumber,image,name,link,description}: Props) {
             {name}
           </h3>
           <h5
-            className="lg:text-xs md:text-xxs text-[0.2rem] mt-[10%] text-center"
+            className="lg:text-xs md:text-xxs text-xxss mt-[10%] text-center"
           >
            {description}
           </h5>
@@ -59,7 +59,7 @@ function MenuCard({menuNumber,image,name,link,description}: Props) {
               alt="Left line"
             />
           </div>
-          <button className={`${bgColor} ${shadowClass}  text-white font-bold md:text-xxs lg:text-xs text-[0.2rem] mt-[10%] px-2 py-1 md:px-4 md:py-2 lg:py-3 rounded-3xl  drop-shadow-2xl`}>
+          <button className={`${bgColor} ${shadowClass}  text-white font-bold md:text-xxs lg:text-xs text-xxss mt-[10%] px-2 py-1 md:px-4 md:py-2 lg:py-3 rounded-3xl  drop-shadow-2xl`}>
             MENU ANZEIGEN
           </button>
         </div>

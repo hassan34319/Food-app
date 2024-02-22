@@ -67,7 +67,7 @@ function Philosophy({}: Props) {
           <h3 className="lg:text-4xl md:text-2xl text-lg mt-[3%] text-black blanch text-center">
             Veggy
           </h3>
-          <p className="lg:text-xs md:text-xxs text-[0.2rem] text-black text-center w-[90%] mx-auto mt-[3%]">
+          <p className="lg:text-xs md:text-xxs text-xxss text-black text-center w-[90%] mx-auto mt-[3%]">
             Lorem ipsum dolor sit amet consectetur. Sit eget non metus nunc
             semper nisl
           </p>
@@ -85,7 +85,7 @@ function Philosophy({}: Props) {
           <h3 className="lg:text-4xl md:text-2xl text-lg mt-[3%] text-black blanch text-center">
             Honzeption
           </h3>
-          <p className="lg:text-xs md:text-xxs text-[0.2rem] text-black text-center w-[90%] mx-auto mt-[3%]">
+          <p className="lg:text-xs md:text-xxs text-xxss text-black text-center w-[90%] mx-auto mt-[3%]">
             Lorem ipsum dolor sit amet consectetur. Sit eget non metus nunc
             semper nisl
           </p>
@@ -102,7 +102,7 @@ function Philosophy({}: Props) {
           <h3 className="lg:text-4xl md:text-2xl text-lg mt-[3%] text-black blanch text-center">
             Innovation
           </h3>
-          <p className="lg:text-xs md:text-xxs text-[0.2rem] text-black text-center w-[90%] mx-auto mt-[3%]">
+          <p className="lg:text-xs md:text-xxs text-xxss text-black text-center w-[90%] mx-auto mt-[3%]">
             Lorem ipsum dolor sit amet consectetur. Sit eget non metus nunc
             semper nisl
           </p>
@@ -119,14 +119,14 @@ function Philosophy({}: Props) {
           <h3 className="lg:text-4xl md:text-2xl text-lg mt-[3%] text-black blanch text-center">
             Liebe
           </h3>
-          <p className="lg:text-xs md:text-xxs text-[0.2rem] text-black text-center w-[90%] mx-auto mt-[3%]">
+          <p className="lg:text-xs md:text-xxs text-xxss text-black text-center w-[90%] mx-auto mt-[3%]">
             Lorem ipsum dolor sit amet consectetur. Sit eget non metus nunc
             semper nisl
           </p>
         </div>
       </div>
       <div className="mt-[3%] flex flex-row justify-center w-full">
-        <button className="bg-primaryGreen text-white lg:text-sm md:text-xxs text-[0.2rem] px-3 py-1 md:px-4 md:py-2 rounded-3xl">
+        <button className="bg-primaryGreen text-white lg:text-sm md:text-xxs text-xxss px-3 py-1 md:px-4 md:py-2 rounded-3xl">
           SCHREIB UNS DOCH EINFACH MAL
         </button>
       </div>

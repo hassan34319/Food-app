@@ -138,7 +138,7 @@ function Form({}: Props) {
       </div>
       {/* Bottom Section */}
       <div className="w-full h-[20%] bg-[#141319] rounded-b-3xl    bg-opacity-95 ">
-        <h3 className="pt-[6%] text-white  lg:text-xs md:text-xxs text-[0.2rem] text-center px-[5%]">
+        <h3 className="pt-[6%] text-white  lg:text-xs md:text-xxs text-xxss text-center px-[5%]">
           Lorem ipsum dolor sit amet consectetur. Quam diam imperdiet augue mi
           et purus etiam. Vel libero rhoncus purus lobortis gravida nisl
         </h3>
