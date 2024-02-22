@@ -8,7 +8,7 @@ import TestimonialBox from "./TestimonialBox";
 type Testimonial = {
   name : string,
   text : string,
-  image? : SanityImageAssetDocument,
+  image? : any,
   jobTitle : string
 }
 
