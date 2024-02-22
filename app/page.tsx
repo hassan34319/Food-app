@@ -20,7 +20,7 @@ export default async function Home() {
     console.log(landingPage)
   return (
     <main
-      className="bg-cover bg-center w-full h-[120rem] md:h-[250rem] lg:h-[300rem] xl:h-[330rem] 2xl:h-[350rem] bg-no-repeat mt-0 "
+      className="bg-cover bg-center w-full h-[120rem] md:h-[250rem] lg:h-[300rem] xl:h-[330rem] 2xl:h-[350rem] 4xl:h-[400rem] bg-no-repeat mt-0 "
       style={{ backgroundImage: `url(${backgroundImageUrl})` }}
     >
       <Header />
