@@ -51,7 +51,7 @@ function MenuCard({menuNumber,image,name,link,description}: Props) {
           >
            {description}
           </h5>
-          <div className="w-full h-5 relative mt-[10%]">
+          <div className="w-full h-5 relative mt-[5%] md:mt-[10%]">
             <Image
               className="object-cover "
               fill

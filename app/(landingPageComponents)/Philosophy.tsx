@@ -68,7 +68,7 @@ function Philosophy({}: Props) {
             Veggy
           </h3>
           <p className="lg:text-xs md:text-xxs text-xxss text-black text-center w-[90%] mx-auto mt-[3%]">
-            Lorem ipsum dolor sit amet consectetur. Sit eget non metus nunc
+          Lorem ipsum dolor sit amet consectetur. <span className="hidden md:block">Sit eget non metus nunc</span>
             semper nisl
           </p>
         </div>
@@ -86,7 +86,7 @@ function Philosophy({}: Props) {
             Honzeption
           </h3>
           <p className="lg:text-xs md:text-xxs text-xxss text-black text-center w-[90%] mx-auto mt-[3%]">
-            Lorem ipsum dolor sit amet consectetur. Sit eget non metus nunc
+            Lorem ipsum dolor sit amet consectetur. <span className="hidden md:block">Sit eget non metus nunc</span>
             semper nisl
           </p>
         </div>
@@ -103,7 +103,7 @@ function Philosophy({}: Props) {
             Innovation
           </h3>
           <p className="lg:text-xs md:text-xxs text-xxss text-black text-center w-[90%] mx-auto mt-[3%]">
-            Lorem ipsum dolor sit amet consectetur. Sit eget non metus nunc
+          Lorem ipsum dolor sit amet consectetur. <span className="hidden md:block">Sit eget non metus nunc</span>
             semper nisl
           </p>
         </div>
@@ -120,7 +120,7 @@ function Philosophy({}: Props) {
             Liebe
           </h3>
           <p className="lg:text-xs md:text-xxs text-xxss text-black text-center w-[90%] mx-auto mt-[3%]">
-            Lorem ipsum dolor sit amet consectetur. Sit eget non metus nunc
+          Lorem ipsum dolor sit amet consectetur. <span className="hidden md:block">Sit eget non metus nunc</span>
             semper nisl
           </p>
         </div>

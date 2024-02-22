@@ -5,7 +5,7 @@ type Props = {};
 
 function Form({}: Props) {
   return (
-    <div className="w-[45%] h-[90%] bg-[#101828] bg-opacity-5 shadow-xl drop-shadow-2xl custom-shadow-black rounded-3xl border-2 border-[#2e2e2e]">
+    <div className="w-[45%] h-[94%] bg-[#101828] bg-opacity-5 shadow-xl drop-shadow-2xl custom-shadow-black rounded-3xl border-2 border-[#2e2e2e]">
       <div className="w-full h-[80%] bg-transparent rounded-t-3xl pt-[5%]  ">
         {/* Numbers */}
         <div className="flex flex-row justify-between mx-[5%]  h-[20%]">
