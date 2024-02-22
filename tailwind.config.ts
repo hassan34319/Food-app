@@ -19,6 +19,7 @@ const config: Config = {
       },
       screens: {
         '2xl': '1350px', // Define the 2xl breakpoint for width greater than 1350px
+        '4xl': '1500px', // Define the 2xl breakpoint for width greater than 1350px
       },
     },
   },
