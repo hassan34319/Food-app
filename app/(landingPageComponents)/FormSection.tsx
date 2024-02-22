@@ -31,7 +31,7 @@ function FormSection({}: Props) {
           <Image
             className="object-contain "
             fill
-            src="/LandingPageImages/FormSection/RIghtWing.svg"
+            src="/LandingPageImages/FormSection/RightWing.svg"
             alt="Left line"
           />
         </div>
